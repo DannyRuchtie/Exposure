@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75C9E6E3280EEDF2000B355B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C9E6E2280EEDF1000B355B /* GoogleService-Info.plist */; };
 		75FA71FA28098B020094E403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA71F928098B020094E403 /* AppDelegate.swift */; };
 		75FA71FC28098B020094E403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA71FB28098B020094E403 /* SceneDelegate.swift */; };
 		75FA71FE28098B020094E403 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA71FD28098B020094E403 /* HomeViewController.swift */; };
@@ -27,9 +28,13 @@
 		75FA722E28098EBD0094E403 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA722D28098EBD0094E403 /* SearchResultsViewController.swift */; };
 		75FA723028098EF70094E403 /* PostEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA722F28098EF70094E403 /* PostEditViewController.swift */; };
 		75FA723228098F030094E403 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA723128098F030094E403 /* PublishViewController.swift */; };
+		A869C85AA09549E7B637D515 /* Pods_Exposure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC047FCCD74356BAF0D8B1F /* Pods_Exposure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC047FCCD74356BAF0D8B1F /* Pods_Exposure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Exposure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A4E30793753F2723FD4A64 /* Pods-Exposure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exposure.debug.xcconfig"; path = "Target Support Files/Pods-Exposure/Pods-Exposure.debug.xcconfig"; sourceTree = "<group>"; };
+		75C9E6E2280EEDF1000B355B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75FA71F628098B020094E403 /* Exposure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exposure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FA71F928098B020094E403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75FA71FB28098B020094E403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 		75FA722D28098EBD0094E403 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		75FA722F28098EF70094E403 /* PostEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditViewController.swift; sourceTree = "<group>"; };
 		75FA723128098F030094E403 /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		9120DC24AE59BC656FAD2FB4 /* Pods-Exposure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exposure.release.xcconfig"; path = "Target Support Files/Pods-Exposure/Pods-Exposure.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A869C85AA09549E7B637D515 /* Pods_Exposure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +77,8 @@
 			children = (
 				75FA71F828098B020094E403 /* Exposure */,
 				75FA71F728098B020094E403 /* Products */,
+				C8BF90A361E5A966043A3F15 /* Pods */,
+				825FD225AF0B41097764B89F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +123,7 @@
 		75FA720F28098B480094E403 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				75C9E6E2280EEDF1000B355B /* GoogleService-Info.plist */,
 				75FA71F928098B020094E403 /* AppDelegate.swift */,
 				75FA71FB28098B020094E403 /* SceneDelegate.swift */,
 			);
@@ -173,6 +183,23 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		825FD225AF0B41097764B89F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC047FCCD74356BAF0D8B1F /* Pods_Exposure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8BF90A361E5A966043A3F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A4E30793753F2723FD4A64 /* Pods-Exposure.debug.xcconfig */,
+				9120DC24AE59BC656FAD2FB4 /* Pods-Exposure.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75FA720A28098B030094E403 /* Build configuration list for PBXNativeTarget "Exposure" */;
 			buildPhases = (
+				7B992E2DED6A7AC7425B5375 /* [CP] Check Pods Manifest.lock */,
 				75FA71F228098B020094E403 /* Sources */,
 				75FA71F328098B020094E403 /* Frameworks */,
 				75FA71F428098B020094E403 /* Resources */,
+				38505060FBF1434EEDFAD88F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,12 +261,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FA720628098B030094E403 /* LaunchScreen.storyboard in Resources */,
+				75C9E6E3280EEDF2000B355B /* GoogleService-Info.plist in Resources */,
 				75FA720328098B030094E403 /* Assets.xcassets in Resources */,
 				75FA720128098B020094E403 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38505060FBF1434EEDFAD88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Exposure/Pods-Exposure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Exposure/Pods-Exposure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Exposure/Pods-Exposure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B992E2DED6A7AC7425B5375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exposure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75FA71F228098B020094E403 /* Sources */ = {
@@ -402,6 +474,7 @@
 		};
 		75FA720B28098B030094E403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A4E30793753F2723FD4A64 /* Pods-Exposure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,6 +505,7 @@
 		};
 		75FA720C28098B030094E403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9120DC24AE59BC656FAD2FB4 /* Pods-Exposure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
