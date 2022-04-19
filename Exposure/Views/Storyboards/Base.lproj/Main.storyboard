@@ -69,7 +69,7 @@
         <scene sceneID="eiu-mK-Lku">
             <objects>
                 <navigationController id="IhL-g4-s5f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass.circle.fill" catalog="system" id="UDX-Df-FFf"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="eye.square.fill" catalog="system" id="UDX-Df-FFf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KhR-bw-Sf1">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -214,7 +214,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="eye.square.fill" catalog="system" width="128" height="114"/>
         <image name="mail.fill" catalog="system" width="128" height="93"/>
         <image name="person.crop.rectangle.stack.fill" catalog="system" width="128" height="122"/>
         <image name="person.text.rectangle.fill" catalog="system" width="128" height="93"/>
