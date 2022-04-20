@@ -179,6 +179,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         passwordField.resignFirstResponder()
         usernameEmailField.resignFirstResponder()
         
+        dismiss(animated: true)
+        
         guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty,
               let password = passwordField.text, !password.isEmpty, password.count >= 8 else {
                 return
@@ -187,8 +189,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         //login functionality
         
         
+
         
     }
+    
     
     
     @objc private func didTapCreateAccountButton(){
